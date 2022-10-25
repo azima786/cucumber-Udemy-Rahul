@@ -38,5 +38,26 @@ public class MyStepDefinitions {
         System.out.println(table.get(0).get(1));
 
         }
+    @When("^user login in to application with (.+) and (.+)$")
+    public void user_login_in_to_application_with_and(String username, String password) throws Throwable {
+        System.out.println(username);
+        System.out.println(password);
+    }
+
+    @Given("^validate the browser$")
+    public void validate_the_browser() throws Throwable {
+        System.out.println("Background");
+    }
+
+    @When("^Browser is triggered$")
+    public void browser_is_triggered() throws Throwable {
+        System.out.println("Background");
+    }
+
+    @Then("^check if the browser is started$")
+    public void check_if_the_browser_is_started() throws Throwable {
+        System.out.println("Background");
+    }
+
 
     }
