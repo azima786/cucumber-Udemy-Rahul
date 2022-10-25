@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="0.216">
+    <testcase classname="Application Login" name="Home page default login" time="0.008">
+        <system-out><![CDATA[Given user is on landing page...............................................passed
+When user login into application with "jin" and "1234"......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login 2" time="0.002">
+        <system-out><![CDATA[Given user is on landing page...............................................passed
+When user login into application with "john" and "4321".....................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login 3" time="0.002">
+        <system-out><![CDATA[Given user is on landing page...............................................passed
+When user login in to application with user1 and pass1......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login 4" time="0.004">
+        <system-out><![CDATA[Given user is on landing page...............................................passed
+When user login in to application with user2 and pass2......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login 5" time="0.001">
+        <system-out><![CDATA[Given user is on landing page...............................................passed
+When user login in to application with user3 and pass3......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login 6" time="0">
+        <system-out><![CDATA[Given user is on landing page...............................................passed
+When user login in to application with user4 and pass4......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
